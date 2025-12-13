@@ -1,6 +1,6 @@
 // utils_timer_header.h
-#ifndef TIMER_UTILS_H
-#define TIMER_UTILS_H
+#ifndef UTILS_TIMER_H
+#define UTILS_TIMER_H
 
 #pragma once
 #include <Arduino.h>
@@ -10,5 +10,6 @@ namespace Timer {
   bool finished(const char* id);                       // Ya termino?
   void remove(const char* id);                         // Borrar timer
 }
+
 
 #endif

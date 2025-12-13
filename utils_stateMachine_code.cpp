@@ -1,5 +1,5 @@
 // utils_stateMachine_code.cpp
-#include "utils_stateMachine.h"
+#include "utils_stateMachine_header.h"
 #include "utils_buttons_header.h" // Este header solo se nececita para el control de inactividad (solo se usa en la funcion handleInactivity())
 
 #define MAX_STATES 10

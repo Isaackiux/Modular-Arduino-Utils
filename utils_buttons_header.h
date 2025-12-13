@@ -1,6 +1,6 @@
 // utils_buttons_header.h
-#ifndef BUTTONS_H
-#define BUTTONS_H
+#ifndef UTILS_BUTTONS_H
+#define UTILS_BUTTONS_H
 
 #include <Arduino.h>
 
@@ -35,5 +35,6 @@ namespace Input {
     // Devuelve el respectivo pin del ButtonID ingresado
     int getButtonPin(ButtonID btn);
 }
+
 
 #endif
